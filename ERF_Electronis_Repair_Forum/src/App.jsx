@@ -32,7 +32,8 @@ function App() {
   //   </>
   // );
 
-   return <PostHeader { ...postHeaderInfo} />;
+  return <Header />; 
+  // return <PostHeader { ...postHeaderInfo} />;
   // return <ReplyForm onSubmit={fakeOnSubmit} />;
   // return <ReplyList replies={allTheReplies} users={usersObj} />;
   // return <ReplyListItem { ...replyListItemInfo } />;
