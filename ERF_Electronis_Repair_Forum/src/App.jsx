@@ -9,7 +9,7 @@ import { t1 } from '../../data/topics'
 import { usersObj } from '../../data/users'
 
 //  reply contains {userId:1, content:""}
-const singularReply = t1.replies[0]
+const singularReply = t1.replies[2]
 
 
 //we're gonna find the way to create 'user object'
