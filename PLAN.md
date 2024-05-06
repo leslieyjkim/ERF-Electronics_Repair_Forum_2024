@@ -5,7 +5,7 @@ Create a forum-like website where we see questions and their replies. We should 
 ## User stories
 
 - A user can post a new question on the forum (Stretch)
-- A user can post a reply to an existing question
+- A user can post a reply to an existing question / cannot edit the reply 
 - A user can like a reply (upvote) (Stretch)
 
 ## Data
@@ -41,7 +41,7 @@ const topic = {
   userId: 8,
   question:
     "I'm working on a laptop that isn't charging properly. It only charges when the charging cable is held at a certain angle. What could be causing this issue?",
-  replies: [],
+  replies: [],  //Point! we need to put list of replies in Array (we can't update/edit the reply in this APP)
 };
 ```
 
