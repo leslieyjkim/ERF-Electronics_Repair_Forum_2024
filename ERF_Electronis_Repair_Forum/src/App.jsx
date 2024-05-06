@@ -7,14 +7,17 @@ import ReplyListItem from './components/ReplyListItem'
 
 import { t1 } from '../../data/topics'
 import { usersObj } from '../../data/users'
+import { generatePostHeaderInfo } from './helpers/postHelpers'
 
 //  reply contains {userId:1, content:""}
 const singularReply = t1.replies[2];
-const allTheReplies = t1.replies
+const allTheReplies = t1.replies;
 
 
 function App() {
   const fakeOnSubmit = reply => console.log(reply);
+
+  const postHeaderInfo = generatePostHeaderInfo(t1, usersObj);
   // const replyListItemInfo = generateReplyListItemInfo(singularReply, usersObj)
    
   // return (
@@ -29,8 +32,8 @@ function App() {
   //   </>
   // );
 
-  return <ReplyForm onSubmit={fakeOnSubmit} />;
-
+   return <PostHeader { ...postHeaderInfo} />;
+  // return <ReplyForm onSubmit={fakeOnSubmit} />;
   // return <ReplyList replies={allTheReplies} users={usersObj} />;
   // return <ReplyListItem { ...replyListItemInfo } />;
 }
