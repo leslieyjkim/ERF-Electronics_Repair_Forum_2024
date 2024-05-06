@@ -14,6 +14,7 @@ const allTheReplies = t1.replies
 
 
 function App() {
+  const fakeOnSubmit = reply => console.log(reply);
   // const replyListItemInfo = generateReplyListItemInfo(singularReply, usersObj)
    
   // return (
@@ -28,7 +29,9 @@ function App() {
   //   </>
   // );
 
-  return <ReplyList replies={allTheReplies} users={usersObj} />;
+  return <ReplyForm onSubmit={fakeOnSubmit} />;
+
+  // return <ReplyList replies={allTheReplies} users={usersObj} />;
   // return <ReplyListItem { ...replyListItemInfo } />;
 }
 
