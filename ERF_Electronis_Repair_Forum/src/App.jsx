@@ -38,6 +38,9 @@ function App() {
     }
   };
 
+  //Above, Navigating part would not move into helper function, 
+  //because we have some state action in there (line34-37).
+  //To solve this ugly situation, we'll jump into 'custom Hook'.
 
 
 
