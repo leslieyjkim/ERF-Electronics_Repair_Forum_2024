@@ -1,6 +1,14 @@
+#root{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+
 .ReplyListItem{
   border: 0.5em solid white;
   padding: 1em;
+  margin: 1em;
 
   display: grid; //can build two dimensional structure
   grid-template-areas: 
