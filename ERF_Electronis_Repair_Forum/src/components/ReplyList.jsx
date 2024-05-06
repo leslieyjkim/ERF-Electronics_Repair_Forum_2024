@@ -11,7 +11,11 @@ export default function ReplyList(props) {
             const replyListItemInfo = generateReplyListItemInfo(reply, users); 
             return <ReplyListItem { ...replyListItemInfo } key={index} />
     });
-    
+    // Make sure that I do recieve 'Array', so we write Array.isArray
+    // then if that case, Hey replies, I'm gonna map over you.
+    // I'm gonna get the singular reply (with index instead of userId in this case.)
+    // 1st: I'm gonna run 'replyListItemInfo',
+    //then 2nd: then return <ReplyListItem/> that will receive all of the 'replyListItemInfo'
     
     return (
         <section className="ReplyList">{parsedReplies}</section>
