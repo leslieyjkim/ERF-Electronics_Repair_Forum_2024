@@ -16,9 +16,10 @@ The one we will use in the bootcamp is `create-react-app`, it contains Babel, We
 
 However, `create-react-app` is not the only package out there, here is some other that you may see out there.
 
-- Vite (`npm create vite@latest`)
+- Vite (`npm create vite@latest`)(library for React) We used this one. 
 - CRA (`npx create-react-app nameOfApp`)
-- Next App (`npx create-next-app nameOfApp`)
+- Next App (`npx create-next-app nameOfApp`)(library for React)
+- Remix (library for React)
 - ...
 
 At the end of the day, all of those options will achieve the same goal!
