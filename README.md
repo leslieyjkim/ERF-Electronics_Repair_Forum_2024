@@ -1,3 +1,8 @@
+![Screenshot](https://raw.githubusercontent.com/leslieyjkim/ERF-Electronics_Repair_Forum_2024/5c10f748cbbd62618db453f244e84f029b6bb7d2/ERF_TOP.png)
+
+
+![Screenshot](https://raw.githubusercontent.com/leslieyjkim/ERF-Electronics_Repair_Forum_2024/5c10f748cbbd62618db453f244e84f029b6bb7d2/ERF_BOTTOM.png)
+
 Nov_13_cohorts W7D4 
 
 # W7D4 - React Developer Workflow
