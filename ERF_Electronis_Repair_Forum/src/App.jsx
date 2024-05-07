@@ -41,6 +41,7 @@ function App() {
   //Above, Navigating part would not move into helper function, 
   //because we have some state action in there (line34-37).
   //To solve this ugly situation, we'll jump into 'custom Hook'.
+  //'custom hook' is a helper function that has other hooks inside it.
 
 
 
@@ -87,7 +88,7 @@ function App() {
       <main>
         <section className="Navigator">
           <button onClick={() => navigateTopic(false)}>Back</button>
-          <span>Currently looking at topic #{currentTopicId}</span>
+          <span>TopicSwitcher: Topic #{currentTopicId}</span>
           <button onClick={() => navigateTopic(true)}>Next</button>
         </section>
         <PostHeader { ...postHeaderInfo}/>
